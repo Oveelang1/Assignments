@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: aliceblue;
+  
+}
+.container{
+  width: 80%;
+  padding: 30px;
+  border: 2px solid; color: purple;
+  margin: 20px auto;
+  margin-block: 2px;
+  box-shadow: 1px 1px 2px rgb(0,0,0,0.125);
+}
+html, body {
+ height: 80%;
+  width: 80%; 
+  justify-content: center;
+  margin:20px 90px 80px 120px;
+/*   background: #000000; */
+}
+h1 {
+  font-family: Tahoma;
+  color: blue;
+  background-color: lightblue;
+  text-align: center;
+}
+input{
+  width: 100%;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input:focus{
+  background-color: grey;
+/*  a :{
+   color: green;
+ }  */
+}
+  .Register{
+   width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+  background-color: #ddd;
+  }
+.Register:hover{
+  opacity: 0.5px;
+  
+}
+
+.nav{    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+.input_field{
+  margin-bottom: 10px;
+  align-items: center;
+  width: 200px;
+}
+input[type=submit]:hover {
+  background-color: #d9edda;
+}
+#country {
+  width: 50px;
+    height: 50px;
+  padding: 1%;
+  margin-bottom: 20px;
+}
+#subject {
+  width: 600px;
+    height: 50px;
+  padding: 1%;
+  margin-bottom: 50px;
+}

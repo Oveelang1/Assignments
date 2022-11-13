@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Contact Me</h1>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Login.html">Login</a></li>
+  </ul>
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>For any type of online project please don't hesitate to get in touch with me. The fastest way is to send me
+        your message using the following email salmasworlds@gmail.com:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <br>
+          <div>
+            <label for="favcolor">Country</label>
+            <select id="country" name="country">
+              <option value="upperwest">Ghana</option>
+              <option value="canada">Nigeria</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+          <br>
+
+          <div>
+            <label for="favcolor">Region</label>
+            <select id="region" name="region">
+              <option value="upperwest">Upper West Region</option>
+              <option value="canada">Greater Accra</option>
+              <option value="usa">Northern</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          </div>
+          <hr>
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
